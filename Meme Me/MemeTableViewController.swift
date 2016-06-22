@@ -57,7 +57,7 @@ class MemeTableViewController: UITableViewController {
         
         let meme = memes[indexPath.row] as Meme
         
-        // Configure the cell
+        // Configure the cell 
         cell.memedImage.image = meme.memedImage
         cell.topLabel.text = meme.topTextField
         cell.bottomLabel.text = meme.bottomTextField
